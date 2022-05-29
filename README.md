@@ -1,8 +1,4 @@
-# Project Title
-
-V Rising Discord Bot
-
-## Description
+# V Rising Discord Bot
 
 A Discord bot that helps with V Rising server management and community management
 
@@ -10,14 +6,14 @@ A Discord bot that helps with V Rising server management and community managemen
 
 ### Dependencies
 
-Node.JS
+* Node.JS
 
-NPM PACKAGES
-discord.js
-gamedig
-rcon'
-config
-graceful-fs
+* NPM PACKAGES
+* discord.js
+* gamedig
+* rcon'
+* config
+* graceful-fs
 
 ### Installing
 
