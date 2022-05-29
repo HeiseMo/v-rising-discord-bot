@@ -74,7 +74,7 @@ Info
 Contributors names and contact info
 
 Timur James Tanurhan
-ex. [Timur James Tanurhan]([https://twitter.com/dompizzie](https://www.linkedin.com/in/timur-james-tanurhan/))
+ex. [Timur James Tanurhan](https://www.linkedin.com/in/timur-james-tanurhan/)
 
 ## Version History
 
