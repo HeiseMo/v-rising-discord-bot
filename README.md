@@ -33,7 +33,7 @@ node .
 ```
 
 ### First Steps
-1) If you already dont have and Admin role, create a role called Admin.
+1) If you already dont have an Admin role, create a role called Admin.
 2) Create 2 Voice channels and copy their IDs for the step below.
 3) You will need to register your server and information with the following command;
 ```
