@@ -77,9 +77,7 @@ client.on('messageCreate', async (message) => {
   if(message.content.startsWith(prefix + "rconM") && message.member.roles.cache.some(role => role.name === process.env.ROLE)){
     message.delete(1000);
       let myArray = message.content.split(" ")
-      console.log(myArray)
       let rconMessage = message.content.slice(7)
-      console.log(rconMessage)
       let rconIP = myArray[1]
       let rconPort = myArray[2]
       let rconPassword = myArray[3]
@@ -110,9 +108,7 @@ client.on('messageCreate', async (message) => {
   if(message.content.startsWith(prefix + "rconA") && message.member.roles.cache.some(role => role.name === process.env.ROLE)){
     message.delete(1000);
     let myArray = message.content.split(" ")
-    console.log(myArray)
     let rconMessage = message.content.slice(7)
-    console.log(rconMessage)
     let rconIP = myArray[1]
     let rconPort = myArray[2]
     let rconPassword = myArray[3]
