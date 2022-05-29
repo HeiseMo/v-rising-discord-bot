@@ -34,6 +34,11 @@ Register
 ```
 ?register [Server IP] [Query Port] [Server Logo] [Role] [PlayerCount Channel ID] [ServerStatus Channel ID]
 ```
+Example
+```
+?register 123.456.789.123 1111 https://somereally.com/coolImage.png Admin 123456789456 789456123012
+```
+RCON Message
 ```
 ?rconM [server IP] [RCON Port] [RCON PASSWORD] [message]
 ```
