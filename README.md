@@ -32,10 +32,14 @@ node .
 
 Register
 ```
-?register [Server IP] [Query Port] [Server Logo] [Role] [Player Count Channel ID] [Server Status Channel ID]
+?register [Server IP] [Query Port] [Server Logo] [Role] [PlayerCount Channel ID] [ServerStatus Channel ID]
 ```
 ```
 ?rconM [server IP] [RCON Port] [RCON PASSWORD] [message]
+```
+Example
+```
+?rconM 123.456.789.123 9999 MySuperSecretPassword My very cool message to my players
 ```
 ```
 ?rconA [server IP] [RCON Port] [RCON PASSWORD] [minutes in number]
