@@ -8,31 +8,37 @@ A Discord bot that helps with V Rising server management and community managemen
 
 * Node.JS
 
-* NPM PACKAGES
+NPM PACKAGES
 * discord.js
 * gamedig
-* rcon'
+* rcon
 * config
 * graceful-fs
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Clone project
+```
+* npm i discord.js gamedig rcon config graceful-fs
+```
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+node .
 ```
 
-## Help
+## Commands
 
-Any advise for common problems or issues.
+Register
 ```
-command to run if program contains helper info
+?register [Server IP] [Query Port] [Server Logo] [Role] [Player Count Channel ID] [Server Status Channel ID]
+```
+```
+?rconM [server IP] [RCON Port] [RCON PASSWORD] [message]
+```
+```
+?rconA [server IP] [RCON Port] [RCON PASSWORD] [minutes in number]
 ```
 
 ## Authors
