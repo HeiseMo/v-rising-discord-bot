@@ -28,6 +28,20 @@ NPM PACKAGES
 node .
 ```
 
+### First Steps
+1) If you already dont create a role called Admin.
+2) Create 2 Voice channels and copy their IDs for the step below.
+3) You will need to register your server and information with the following command;
+```
+?register [Server IP] [Query Port] [Server Logo] [Role] [PlayerCount Channel ID] [ServerStatus Channel ID]
+```
+Example Command:
+```
+// ?register 123.456.789.123 1111 https:/someimage.com/coolimage.png Admin 12345678912 32165498712
+```
+This will help with getting information for the commands and also update your 2 channels for player count and server status. Updates for those 2 channels are by default set to 30 min intervals.
+
+
 ## Commands
 
 Register
@@ -55,17 +69,11 @@ Info
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Timur James Tanurhan
+ex. [Timur James Tanurhan]([https://twitter.com/dompizzie](https://www.linkedin.com/in/timur-james-tanurhan/))
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
