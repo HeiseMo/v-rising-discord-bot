@@ -65,12 +65,20 @@ Info
 ?info
 ```
 
+## ENV
+1) Create a .env file in the directory and add the following lines.
+```
+ROLE="Admin"                                   #Role name you would like admin right check for admin commands
+DISCORDCHANNELNAMEREFRESHRATE=1800000          #Input the seconds you would like to refresh the 2 voice channels 60000 = 1 minute
+DISCORDBOTTOKEN=""                             #Your discord bot token
+```
+
 ## Authors
 
 Contributors names and contact info
 
 Timur James Tanurhan
-ex. [Timur James Tanurhan](https://www.linkedin.com/in/timur-james-tanurhan/)
+ex. HeiseMo#7703
 
 ## Version History
 
