@@ -5,10 +5,6 @@ A Discord bot that helps with V Rising server management and community managemen
 ## Getting Started
 
 ### Dependencies
-
-* Node.JS
-
-NPM PACKAGES
 * discord.js
 * gamedig
 * rcon
