@@ -19,7 +19,7 @@ git clone https://github.com/HeiseMo/v-rising-discord-bot.git
 ```
 * Install NPM packages
 ```
-npm i discord.js gamedig rcon config graceful-fs
+npm i discord.js gamedig rcon config graceful-fs dotenv
 ```
 
 ### Executing program
