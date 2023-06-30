@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "config": "^3.3.9",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "gamedig": "^4.0.6",
+    "graceful-fs": "^4.2.11",
+    "rcon": "^1.1.0"
+  }
+}
