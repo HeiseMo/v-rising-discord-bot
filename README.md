@@ -51,11 +51,11 @@ Register
 ```
 RCON Message
 ```
-/rconM [server IP] [RCON Port] [RCON PASSWORD] [message]
+/rconm [server IP] [RCON Port] [RCON PASSWORD] [message]
 ```
 RCON Announcement
 ```
-/rconA [server IP] [RCON Port] [RCON PASSWORD] [minutes]
+/rcona [server IP] [RCON Port] [RCON PASSWORD] [minutes]
 ```
 Players
 ```
