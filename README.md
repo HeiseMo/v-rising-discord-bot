@@ -39,7 +39,7 @@ node .
 ```
 Example Command:
 ```
-// ?register 123.456.789.123 1111 https:/someimage.com/coolimage.png Admin 12345678912 32165498712
+// ?register 123.456.789.123 1111 https://someimage.com/coolimage.png Admin 12345678912 32165498712
 ```
 This will help with getting information for the commands and also update your 2 channels for player count and server status. Updates for those 2 channels are by default set to 30 min intervals.
 
