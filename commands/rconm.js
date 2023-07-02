@@ -19,7 +19,7 @@ module.exports = {
         .setRequired(true))
     .addStringOption(option =>
       option.setName('rcon_cmd')
-        .setDescription('RCON command')
+        .setDescription('RCON Message')
         .setRequired(true)),
   run: async (client, interaction) => {
     const rconIP = interaction.options.getString('rcon_ip');
