@@ -3,19 +3,14 @@
 // Import modules
 require('dotenv').config()
 const Discord = require('discord.js');
-const {
-    MessageEmbed
-} = require('discord.js');
 const Gamedig = require('gamedig');
 const Rcon = require('rcon');
 const config = require('config');
 const fs = require('graceful-fs')
 
-
-
-
 // Create an instance of a Discord client
 const { Client, GatewayIntentBits } = require('discord.js');
+const { MessageEmbed, Intents, EmbedBuilder } = require('discord.js');
 
 const client = new Client({
   intents: [
@@ -42,9 +37,10 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
 
 client.on('ready', async () => {
     console.log('I am ready!');
+    console.log(process.env.DISCORDBOTTOKEN)
 });
 const prefix = "?";
-
+console.log(prefix)
 client.on('guildCreate', guild => {
     let getOwners = async () => {
         let owner = await guild.fetchOwner().catch(err => err)
@@ -54,7 +50,7 @@ client.on('guildCreate', guild => {
         if (owner !== undefined) {
             console.log(`ID: ${owner.user.id}\nUsername: ${owner.user.username}`)
             owner.send('First Steps');
-            const embed = new Discord.MessageEmbed()
+            const embed = new EmbedBuilder() // <-- Changed here
                 .setTitle(`First Steps`)
                 .setColor('#810e0e')
                 .addFields({
@@ -80,7 +76,6 @@ client.on('guildCreate', guild => {
             })
         }
     })
-
 });
 
 const ping = details =>
@@ -166,6 +161,9 @@ client.on('messageCreate', async (message) => {
         message.channel.send(rconRes)
         rconRes = ""
         conn.disconnect();
+    }
+    if (message.content.startsWith(prefix + "test")) {
+    console.log("test")
     }
     if (message.content.startsWith(prefix + "rconA") && message.member.roles.cache.some(role => role.name === process.env.ROLE)) {
         message.delete(1000);
