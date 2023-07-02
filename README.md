@@ -10,6 +10,8 @@ A Discord bot that helps with V Rising server management and community managemen
 * rcon
 * config
 * graceful-fs
+* ms
+* moment
 
 ### Installing
 
@@ -19,7 +21,7 @@ git clone https://github.com/HeiseMo/v-rising-discord-bot.git
 ```
 * Install NPM packages
 ```
-npm i discord.js gamedig rcon config graceful-fs dotenv
+npm i discord.js gamedig rcon config graceful-fs dotenv ms moment @discordjs/rest
 ```
 
 ### Executing program
