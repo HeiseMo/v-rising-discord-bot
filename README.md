@@ -21,7 +21,7 @@ git clone https://github.com/HeiseMo/v-rising-discord-bot.git
 ```
 * Install NPM packages
 ```
-npm i discord.js gamedig rcon config graceful-fs dotenv ms moment @discordjs/rest
+npm install
 ```
 
 ### Executing program
@@ -80,10 +80,12 @@ DISCORDBOTTOKEN=""                             #Your discord bot token
 Contributors names and contact info
 
 Timur James Tanurhan
-ex. HeiseMo#7703
+aka doubtfulhermit
 
 ## Version History
 
 * 0.1
     * Initial Release
+* 0.2
+    * Converted to Discord.js v14
 
