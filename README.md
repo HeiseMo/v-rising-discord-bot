@@ -10,7 +10,6 @@ A Discord bot that helps with V Rising server management and community managemen
 * rcon
 * config
 * graceful-fs
-* ms
 * moment
 
 ### Installing
@@ -35,11 +34,11 @@ node .
 2) Create 2 Voice channels and copy their IDs for the step below.
 3) You will need to register your server and information with the following command;
 ```
-?register [Server IP] [Query Port] [Server Logo] [Role] [PlayerCount Channel ID] [ServerStatus Channel ID]
+/register [Server IP] [Query Port] [Server Logo] [Role] [PlayerCount Channel ID] [ServerStatus Channel ID]
 ```
 Example Command:
 ```
-// ?register 123.456.789.123 1111 https://someimage.com/coolimage.png Admin 12345678912 32165498712
+// /register 123.456.789.123 1111 https://someimage.com/coolimage.png Admin 12345678912 32165498712
 ```
 This will help with getting information for the commands and also update your 2 channels for player count and server status. Updates for those 2 channels are by default set to 30 min intervals.
 
@@ -48,23 +47,23 @@ This will help with getting information for the commands and also update your 2 
 
 Register
 ```
-?register [Server IP] [Query Port] [Server Logo] [Role] [PlayerCount Channel ID] [ServerStatus Channel ID]
+/register [Server IP] [Query Port] [Server Logo] [Role] [PlayerCount Channel ID] [ServerStatus Channel ID]
 ```
 RCON Message
 ```
-?rconM [server IP] [RCON Port] [RCON PASSWORD] [message]
+/rconM [server IP] [RCON Port] [RCON PASSWORD] [message]
 ```
 RCON Announcement
 ```
-?rconA [server IP] [RCON Port] [RCON PASSWORD] [minutes]
+/rconA [server IP] [RCON Port] [RCON PASSWORD] [minutes]
 ```
 Players
 ```
-?players
+/players
 ```
 Info
 ```
-?info
+/info
 ```
 
 ## ENV
